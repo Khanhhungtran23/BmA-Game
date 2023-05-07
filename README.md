@@ -10,7 +10,7 @@ This is our Bomberman game project for the Object-Oriented Programming course at
 
 | Order |         Name          | Student ID  |
 |:-----:|:---------------------:|:-----------:|
-|   1   |   Tran Vu Khanh Hung  | ITCSIU21182 |
-|   2   |                       |             |
-|   3   |                       |             |
-|   4   |                       |             |
+|   1   |   Trần Vũ Khánh Hưng  | ITCSIU21182 |
+|   2   |   Ngô Í Khang         | ITCSIU21192 |
+|   3   |   Lữ Nguyên Vĩnh Phúc | ITCSIU21217 |
+|   4   |   Đinh Gia Hiếu       | ITITIU21199 |
