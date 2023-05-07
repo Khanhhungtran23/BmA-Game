@@ -53,7 +53,7 @@ This is our Bomberman game project for the Object-Oriented Programming course at
 
 1. Clone this repository
     ```sh
-    https://github.com/Khanhhungtran23/Bomberman-Adventure
+    git clone https://github.com/Khanhhungtran23/Bomberman-Adventure
     ```
 2. Open the project with IntelliJ IDEA or VSCode and check the file status
     ```sh
