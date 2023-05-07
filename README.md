@@ -16,6 +16,35 @@ This is our Bomberman game project for the Object-Oriented Programming course at
 |   3   |   Lữ Nguyên Vĩnh Phúc | ITCSIU21217 |
 |   4   |   Đinh Gia Hiếu       | ITITIU21199 |
 
+### How to run
+
+1. Clone this repository
+    ```sh
+  
+    ```
+2. Open the project with IntelliJ IDEA or VSCode and check the file status
+    ```sh
+    git status
+    ```
+3. Run the project
+4. Enjoy the game
+
+### Task Allocation
+
+| Order |         Name          |                      Task                      | Contribution |
+|:-----:|:---------------------:|:----------------------------------------------:|:------------:|
+|   1   |                       |                                                |      25      |
+|   2   |                       |                                                |      25      |
+|   3   |                       |                                                |      25      |
+|   4   |                       |                                                |      25      |
+<!-- Game -->
+
+## Game <a name="Game"></a>
+
+
+
+
+
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
