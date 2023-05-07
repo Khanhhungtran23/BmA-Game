@@ -19,3 +19,9 @@ This is our Bomberman game project for the Object-Oriented Programming course at
 |   2   |   Ngô Í Khang         | ITCSIU21192 |
 |   3   |   Lữ Nguyên Vĩnh Phúc | ITCSIU21217 |
 |   4   |   Đinh Gia Hiếu       | ITITIU21199 |
+
+
+<p align="right">(<a href="#top">Back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
