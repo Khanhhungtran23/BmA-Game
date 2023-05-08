@@ -66,10 +66,10 @@ This is our Bomberman game project for the Object-Oriented Programming course at
 
 | Order |         Name          |                      Task                      | Contribution |
 |:-----:|:---------------------:|:----------------------------------------------:|:------------:|
-|   1   |                       |                                                |      25      |
-|   2   |                       |                                                |      25      |
-|   3   |                       |                                                |      25      |
-|   4   |                       |                                                |      25      |
+|   1   | Trần Vũ Khánh Hưng    |                                                |      25      |
+|   2   | Ngô Í Khang           |                                                |      25      |
+|   3   | Lữ Nguyên Vĩnh Phúc   |                                                |      25      |
+|   4   | Đinh Gia Hiếu         |                                                |      25      |
 <!-- Game -->
 
 ## Game <a name="Game"></a>
