@@ -72,6 +72,12 @@ This is our Bomberman game project for the Object-Oriented Programming course at
 |   4   | Đinh Gia Hiếu         |                                                |      25      |
 <!-- Game -->
 
+### Motivation :mechanical_arm:
+
+<div style="text-align:justify">
+As a fresher developer, we assume that the Bomberman game is one of the most simple game which helps us in practicing coding with OOP also some significant aspects of the front-end such as: How to render the game? , How frame working in UX/UI? , ….
+</div>
+
 ## Game <a name="Game"></a>
 ### About The Game
 
