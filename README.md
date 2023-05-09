@@ -1,7 +1,6 @@
 
 # Bomberman-Adventure
-This is a OOP Project Game in JAVA that me and my friends works together for Final OOP laboratory session.
-Hope you enjoy the game!
+
 # Table of contents
 1. [Introduction](#Introduction)
 2. [Game](#Game)
