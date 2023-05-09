@@ -1,5 +1,10 @@
 package GUI;
 
+
+import Variables.Constant;
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.awt.image.BufferedImage;
 import java.util.Objects;
 
 public class Credit extends Scene {

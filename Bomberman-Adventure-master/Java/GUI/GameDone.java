@@ -1,4 +1,6 @@
 package GUI;
 
-public class GameDone {
+public class GameDone extends Scene{
+    Image gameDone;
+
 }
