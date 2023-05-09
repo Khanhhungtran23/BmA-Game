@@ -25,5 +25,3 @@ replay_pid*
 
 .classpath
 
-# Editor-based HTTP Client requests
-/httpRequests/
