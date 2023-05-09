@@ -1,0 +1,58 @@
+package GUI;
+
+import Controls.MouseHandler;
+import Variables.Constant;
+
+import javax.imageio.ImageIo;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+
+public class GameOver {
+    BufferedImage gameOver, playAgainPressed, exitPressed;
+    BufferedImage currentGameOver;
+    Rectangle playAgainRect, exitRect;
+    MouseHandler mouseH= Window.getMouseH();
+    public static GameOver instance = null;
+    public static GameOver getInstance(){
+        if(GameOver.instance == null){
+           GameOver.instance = new GameOver();
+        }
+        return GameOver.instance;
+    }
+    public GameOver(){
+        try{
+            gameOver= ImageIO.read(new File("Bomberman-Adventure/Resources/Menu/GameOver.png"));
+            playAgainPressed = ImageIO.read(new File("Bomberman-Adventure/Resources/Menu/GameOverPlayAgainPressed.png"));
+            exitPressed = ImageIO.read(new File("Bomberman-Adventure/Resources/Menu/GameOverExitPressed.png"));
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        currentGameOver = gameOver;
+        playAgainRect = new Rectangle(258,292,332,31);
+        exitRect = new Rectangle(359,344,131,29);
+    }
+    public void update(){
+        if(mouseH.checkInteractWithRect(mouseH,playAgainRect)){
+            currentGameOver = playAgainPressed;
+            if(mouseH.isPressed){
+                Window.getWindows().changeState(Window.getWindows().getCurrentMapID));
+                TileManager.getInstance().clearMap();
+            }
+        }
+            else if(mouseH.checkInteractWithRect(mouseH,exitRect)){
+                currentGameOver = exitPressed;
+                if(mousH.isPressed){
+                    Window.getWindows().close();
+                }
+            }else{
+                currentGameOver = gameOver;
+            }
+        }
+        public void draw(Graphics g2){
+            g2.setColor(new Color(0,0,0,150));
+            g2.fillRect(0,0,Constant.WIDTH,Constant.HEIGHT);
+            g2.drawImage(currentGameOver,0,0,Constant.WIDTH,Constant.Height,null)
+        }
+    }
+
