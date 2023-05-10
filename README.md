@@ -1,6 +1,6 @@
 
 # Bomberman-Adventure
-OOP Project Game
+
 # Table of contents
 1. [Introduction](#Introduction)
 2. [Game](#Game)

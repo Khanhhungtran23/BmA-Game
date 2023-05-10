@@ -23,7 +23,7 @@
 hs_err_pid*
 replay_pid*
 
-.classpath
+*.classpath
 
-# Editor-based HTTP Client requests
-/httpRequests/
+*.xml
+*.iml
