@@ -31,3 +31,6 @@ replay_pid*
 # add file shelf
 .idea/shelf/
 
+# add file text
+*.txt
+
