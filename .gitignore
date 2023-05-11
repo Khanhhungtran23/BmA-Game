@@ -27,3 +27,7 @@ replay_pid*
 
 *.xml
 *.iml
+
+# add file shelf
+.idea/shelf/
+
