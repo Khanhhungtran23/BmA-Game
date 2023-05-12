@@ -34,3 +34,8 @@ replay_pid*
 # add file text
 *.txt
 
+# Ignore shelf folder and inspectionProfiles folder
+/.idea/inspectionProfiles/
+/.idea/workspace.xml
+
+
