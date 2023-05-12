@@ -47,7 +47,7 @@ This is our Bomberman game project for the Object-Oriented Programming course at
 |   1   |   Trần Vũ Khánh Hưng  | ITCSIU21182 |
 |   2   |   Ngô Í Khang         | ITCSIU21192 |
 |   3   |   Lữ Nguyên Vĩnh Phúc | ITCSIU21217 |
-|   4   |   Đinh Gia Hiếu       | ITITIU21199 |
+
 
 ### How to run
 
@@ -66,10 +66,10 @@ This is our Bomberman game project for the Object-Oriented Programming course at
 
 | Order |         Name          |                      Task                      | Contribution |
 |:-----:|:---------------------:|:----------------------------------------------:|:------------:|
-|   1   | Trần Vũ Khánh Hưng    |                                                |      25      |
-|   2   | Ngô Í Khang           |                                                |      25      |
-|   3   | Lữ Nguyên Vĩnh Phúc   |                                                |      25      |
-|   4   | Đinh Gia Hiếu         |                                                |      25      |
+|   1   | Trần Vũ Khánh Hưng    |                                                |      33.3    |
+|   2   | Ngô Í Khang           |                                                |      33.3    |
+|   3   | Lữ Nguyên Vĩnh Phúc   |                                                |      33.3    |
+
 <!-- Game -->
 
 
