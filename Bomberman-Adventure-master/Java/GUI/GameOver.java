@@ -22,9 +22,9 @@ public class GameOver {
     }
     public GameOver(){
         try{
-            gameOver= ImageIO.read(new File("Bomberman-Adventure/Resources/Menu/GameOver.png"));
-            playAgainPressed = ImageIO.read(new File("Bomberman-Adventure/Resources/Menu/GameOverPlayAgainPressed.png"));
-            exitPressed = ImageIO.read(new File("Bomberman-Adventure/Resources/Menu/GameOverExitPressed.png"));
+            gameOver= ImageIO.read(new File("Bomberman-Adventure-master/Resources/Menu/GameOver.png"));
+            playAgainPressed = ImageIO.read(new File("Bomberman-Adventure-master/Resources/Menu/GameOverPlayAgainPressed.png"));
+            exitPressed = ImageIO.read(new File("Bomberman-Adventure-master/Resources/Menu/GameOverExitPressed.png"));
         }catch(Exception e){
             e.printStackTrace();
         }
