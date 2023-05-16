@@ -53,4 +53,4 @@ import Variables.Constant;
                     y - Constant.TILE_SIZE < playerY + Constant.PLAYER_SCREEN_Y;
         }
     }
-}
+
