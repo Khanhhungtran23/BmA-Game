@@ -8,7 +8,7 @@ import java.awt.image.BufferedImage;
 import java.util.Objects;
 
 public class FinishMenu {
-    BufferredImage finishMenu, finishMenuPressed, currentFinishMenu;
+    BufferedImage finishMenu, finishMenuPressed, currentFinishMenu;
     Rectangle nextButtonRect;
     MouseHandler mouseH = Window.getMouseH();
     public static FinishMenu instance = null;
