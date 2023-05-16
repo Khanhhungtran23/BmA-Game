@@ -19,7 +19,7 @@ public class GameDone extends Scene{
         if(GameDone.instance == null){
             GameDone.instance = new GameDone();
         }
-        return GameDone.instance
+        return GameDone.instance;
     }
     GameDone(){
         URL url = Objects.requireNonNull(getClass().getResource("/Menu/GameDone.gif"));
@@ -32,14 +32,14 @@ public class GameDone extends Scene{
         } catch (Exception e){
             e.printStackTrace();
         }
-        nextButtonPressed = new Rectangle (337,434,141,30);
+        nextButtonRect  = new Rectangle (337,434,141,30);
     }
     @Override
     public void update(){
         if(mouseH.checkInteractWithRect(mouseH, nextButtonRect)){
             currentNextButton = nextButtonPressed;
             if(mouseH.isPressed){
-                Window.getWindows().changeState(4);//From Congratulation to Credit
+                Window.getWindow().changeState(4);//From Congratulation to Credit
             }
         } else {
             currentNextButton = nextButton;
@@ -47,7 +47,7 @@ public class GameDone extends Scene{
     }
     @Override
     public void draw(Graphics g){
-        g.drawImage(gameDone,0,0,Constant.WIDTH,Constant.Height,null);
+        g.drawImage(gameDone,0,0,Constant.WIDTH,Constant.HEIGHT,null);
         g.drawImage(currentNextButton,0,0,Constant.WIDTH, Constant.HEIGHT,null);
     }
 }
