@@ -1,0 +1,2 @@
+module Bomberman.Adventure {
+}
