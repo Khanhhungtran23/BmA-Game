@@ -124,7 +124,7 @@ keys. The player can place a bomb by pressing the space bar. The player can paus
 - The player can increase the range of bombs by picking up the Blast Radius item. <br/>
 - The player can pause the game by pressing the P key. <br/>
 - There 2 maps currently in the game, with different obstacles and enemies. <br/>
-- The boss will appear in map 2, with a lot of health and will track the player. To kill the boss, you have to be patient and wait for the right time to attack. <br/>
+- The boss will appear in end of map 2, with a lot of health and will track the player. To kill the boss, you have to be patient and wait for the right time to attack. <br/>
 - After defeating the boss, you will win the game and become the "Hero of the BomberLand". <br/>
 </div>
 
