@@ -117,6 +117,7 @@ public class GameScene extends Scene {
         if (isPaused) {
             pause.draw(g2); //Draw Pause Menu
         }
+
         if (player.state == 0) {
             GameOver.getInstance().draw(g2); //Draw Game Over Menu
         }

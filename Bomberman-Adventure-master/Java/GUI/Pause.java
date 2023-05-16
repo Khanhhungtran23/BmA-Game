@@ -34,10 +34,10 @@ public class Pause{
             flag = true;}
         if(!keyH.pausePressed && flag) {
             gameScene.isPaused = !gameScene.isPaused;//toggle
-            flag = flase;
+            flag = false;
         }
     }
-    public void draw(Graphic g2){
+    public void draw(Graphics g2){
         g2.setColor(new Color(0,0,0,150));
         g2.fillRect(0,0,Constant.WIDTH,Constant.HEIGHT);
         g2.drawImage(pause,0,0,Constant.WIDTH,Constant.HEIGHT,null);
