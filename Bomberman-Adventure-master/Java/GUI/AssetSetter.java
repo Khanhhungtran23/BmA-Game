@@ -46,7 +46,7 @@ public class AssetSetter {
             GameScene.Object[4] = new OBJ_BlastRadius(6,6);
         } else if (Window.getWindow().getCurrentMapID() == 2){
             //GameScene.Object[0] = new OBJ_Door(8,4);
-            //GameScene.Object[1] = new OBJ_BlastRadius(10,8);
+            //GameScene.Object[1] = new OBJ_BlastRadius.java(10,8);
             GameScene.Object[2] = new OBJ_ExtraBomb(11,6);
             GameScene.Object[3] = new OBJ_ExtraBomb(21,7);
             GameScene.Object[4] = new OBJ_ExtraBomb(32,6);
