@@ -3,7 +3,7 @@ package GUI;
 import Controls.MouseHandler;
 import Variables.Constant;
 
-import javax.imageio.ImageIo;
+import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -36,14 +36,14 @@ public class GameOver {
         if(mouseH.checkInteractWithRect(mouseH,playAgainRect)){
             currentGameOver = playAgainPressed;
             if(mouseH.isPressed){
-                Window.getWindows().changeState(Window.getWindows().getCurrentMapID));
+                Window.getWindow().changeState(Window.getWindow().getCurrentMapID());
                 TileManager.getInstance().clearMap();
             }
         }
             else if(mouseH.checkInteractWithRect(mouseH,exitRect)){
                 currentGameOver = exitPressed;
-                if(mousH.isPressed){
-                    Window.getWindows().close();
+                if(mouseH.isPressed){
+                    Window.getWindow().close();
                 }
             }else{
                 currentGameOver = gameOver;
@@ -52,7 +52,7 @@ public class GameOver {
         public void draw(Graphics g2){
             g2.setColor(new Color(0,0,0,150));
             g2.fillRect(0,0,Constant.WIDTH,Constant.HEIGHT);
-            g2.drawImage(currentGameOver,0,0,Constant.WIDTH,Constant.Height,null)
+            g2.drawImage(currentGameOver,0,0,Constant.WIDTH,Constant.HEIGHT,null);
         }
     }
 
