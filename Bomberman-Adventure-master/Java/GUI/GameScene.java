@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 
 public class GameScene extends Scene {
-    boolean isPaused; //true = paused, false = not paused
+    boolean isPaused;
     Pause pause;
     TileManager tileM;
     AssetSetter assetSetter;
@@ -46,30 +46,30 @@ public class GameScene extends Scene {
 
     @Override
     public void update() {
-        pause.pauseGame(); //Pause game
+        pause.pauseGame();
         if (!isPaused) {
-            player.update(); //update Player
+            player.update();
 
-            tileM.update(); //update Tile
+            tileM.update();
 
             if(mobList != null){
                 for (Mob mob : mobList) {
-                    mob.update(); //update Mob
+                    mob.update();
                 }
             }
 
             if(Window.getWindow().getCurrentMapID() == 2){
                 if(boss.state == 1){
-                    boss.update(); //update Boss
+                    boss.update();
                 }
             }
-            if (CheckAvailable.plantBomb(player.getX(), player.getY())) { //update Bomb
+            if (CheckAvailable.plantBomb(player.getX(), player.getY())) {
                 bombList.add(new Bomb(player.getX(), player.getY(), bombRadius, bombExplodeMap));
                 bombCounter++;
             }
         }
 
-        if (player.state == 0) { //Game Over
+        if (player.state == 0) {
             GameOver.getInstance().update();
             bombList.clear();
             bombCounter = 0;
@@ -87,35 +87,35 @@ public class GameScene extends Scene {
     public void draw(Graphics g) {
         Graphics2D g2 = (Graphics2D) g;
 
-        tileM.draw(g2); //draw Tile
+        tileM.draw(g2);
 
-        player.draw(g2); //draw Player
+        player.draw(g2);
 
         if (Window.getWindow().currentMapID == 2) {
             if (boss != null) {
-                boss.draw(g2); //draw Boss
+                boss.draw(g2);
             }
         }
 
         for (SuperObject superObject : Object) {
             if (superObject != null) {
-                superObject.draw(g2); //Draw Items
+                superObject.draw(g2);
             }
         }
 
         bombList.removeIf(b -> b.getState() == 2);
         if (bombList != null) {
             for (Bomb b : bombList) {
-                b.draw(g2); //Draw Bomb
+                b.draw(g2);
             }
         }
 
         for (Mob value : mobList) {
-            value.draw(g2); //Draw Mob
+            value.draw(g2);
         }
 
         if (isPaused) {
-            pause.draw(g2); //Draw Pause Menu
+            pause.draw(g2);
         }
 
         if (player.state == 0) {
@@ -136,7 +136,7 @@ public class GameScene extends Scene {
         return mobCounter==0;
     }
 
-    public boolean isGameDone() { //Check if Game is Finished
+    public boolean isGameDone() {
         return Window.getWindow().getCurrentMapID() == 2 && mobClear(mobList.size()) && boss.state == 0;
     }
 
