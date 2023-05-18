@@ -4,6 +4,10 @@
 [![Issues][issues-shield]][issues-url]
 
 # Bomberman-Adventure
+<!--suppress ALL -->
+<div align="center">
+<img src="Bomberman-Adventure-master/resources/Screenshots/Menu.png" alt="">
+</div>
 
 # Table of contents
 1. [Introduction](#Introduction)
