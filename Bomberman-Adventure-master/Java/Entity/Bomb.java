@@ -25,8 +25,8 @@ public class Bomb extends Entity {
     private String key = "";
 
     public BombExplodeMap bombExplodeMap;
-    SoundManager sound1 = new SoundManager("src/main/resources/Sound/put_bombs.wav");
-    SoundManager sound2 = new SoundManager("src/main/resources/Sound/bomb_explosion.wav");
+    SoundManager sound1 = new SoundManager("Bomberman-Adventure-master/Java/resources/Sound/put_bombs.wav");
+    SoundManager sound2 = new SoundManager("Bomberman-Adventure-master/Java/resources/Sound/bomb_explosion.wav");
     int explosionQueue, plantSoundQueue;
 
     public Bomb(int x, int y, int radius, BombExplodeMap bombExplodeMap) {
@@ -87,7 +87,7 @@ public class Bomb extends Entity {
         if (key.equals("space")) {
             if ((System.nanoTime() - timeStart)/Constant.Tera < bombExplosionTimer) {//planting for 2s
                 if (plantSoundQueue == 0) { //Sound Queue
-                    sound1.playSound("src/main/resources/Sound/put_bombs.wav");
+                    sound1.playSound("Bomberman-Adventure-master/Java/resources/Sound/put_bombs.wav");
                     plantSoundQueue++;
                 }
 
@@ -102,7 +102,7 @@ public class Bomb extends Entity {
 
             } else {//exploding
                 if (explosionQueue == 0) { //Sound Queue
-                    sound2.playSound("src/main/resources/Sound/bomb_explosion.wav");
+                    sound2.playSound("Bomberman-Adventure-master/Java/resources/Sound/bomb_explosion.wav");
                     explosionQueue++;
                 }
                 state = 1;
