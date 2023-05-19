@@ -45,10 +45,10 @@
 
 ## Introduction
 <div style = "text-align: justify">
-This is our Bomberman game project for the Object-Oriented Programming course at HCMIU in semester 2 (2022-2023). We all knew that the game is a classic, but we wanted to make it more interesting and challenging. So we decided to add some new features to the game. We hope you enjoy it!
+This is our Bomberman game project for the Object-Oriented Programming course at HCMIU in semester 2 (2022-2023). We all knew that the game is a classic, but we wanted to make it more interesting and challenging. So we decided to add some new features to the game. We hope you enjoy it the most comfortable  !
 </div>
 
-### Team Members
+### Team Membersthe mót
 
 | Order |         Name          | Student ID  |
 |:-----:|:---------------------:|:-----------:|
@@ -74,9 +74,9 @@ This is our Bomberman game project for the Object-Oriented Programming course at
 
 | Order |         Name          |                      Task                      | Contribution |
 |:-----:|:---------------------:|:----------------------------------------------:|:------------:|
-|   1   | Trần Vũ Khánh Hưng    |                                                |      33.3    |
-|   2   | Ngô Í Khang           |                                                |      33.3    |
-|   3   | Lữ Nguyên Vĩnh Phúc   |                                                |      33.3    |
+|   1   | Trần Vũ Khánh Hưng    |  Git , Entity                                  |      33.3    |
+|   2   | Ngô Í Khang           |  GUI , Controls ,                              |      33.3    |
+|   3   | Lữ Nguyên Vĩnh Phúc   |  GUI , Variables ,                             |      0       |
 
 <!-- Game -->
 
@@ -110,7 +110,7 @@ As a fresher developer, we assume that the Bomberman game is one of the most sim
 | SPACE | Place Bomb |
 |   P   |   Pause    |
 <div style = "text-align: justify">
-The character is controlled by the arrow keys and the space bar. The player can move the character by pressing the arrow
+The character is controlled by the arrow keys and the space bar on the keyboard. The player can move the character by pressing the arrow
 keys. The player can place a bomb by pressing the space bar. The player can pause the game by pressing the P key.
 </div>
 
@@ -123,17 +123,40 @@ keys. The player can place a bomb by pressing the space bar. The player can paus
 | Boots of Hermes | Increase the speed of the player |
 
 ## UML-diagram <a name="UML-diagram"></a>
+## Controls
+<div >
+<img src="Bomberman-Adventure-master/resources/Screenshots/Controls_UML.png" alt="">
+</div>
+<div >
+<img src="Bomberman-Adventure-master/resources/Screenshots/Menu.png" alt="">
+</div>
+## Entity
+<div >
+<img src="Bomberman-Adventure-master/resources/Screenshots/Entity_UML.png" alt="">
+</div>
+## GUI
+<div >
+<img src="Bomberman-Adventure-master/resources/Screenshots/GUI_UML.png" alt="">
+</div>
+## Objects
+<div >
+<img src="Bomberman-Adventure-master/resources/Screenshots/Objects_UML.png" alt="">
+</div>
+## Variables
+<div >
+<img src="Bomberman-Adventure-master/resources/Screenshots/Constant_UML.png" alt="">
+</div>
 
 ## Features <a name="Features"></a>
 <div style = "text-align: justify">
-   Unlike the original game, in this version, we decided to change something in the gameplay to make it a bit differ. We added some new features to the game, such as: <br/>
+      We added some new features to the game, such as: <br/>
 - The player can move faster by picking up the Boots of Hermes item. <br/>
 - The player can place more bombs at the same time by picking up the Extra Bomb item. <br/>
 - The player can increase the range of bombs by picking up the Blast Radius item. <br/>
 - The player can pause the game by pressing the P key. <br/>
 - There 2 maps currently in the game, with different obstacles and enemies. <br/>
 - The boss will appear in end of map 2, with a lot of health and will track the player. To kill the boss, you have to be patient and wait for the right time to attack. <br/>
-- After defeating the boss, you will win the game and become the "Hero of the BomberLand". <br/>
+- After defeating the boss at the level 2, you will win the game and become the "Hero of the BomberLand". <br/>
 </div>
 
 ## Challenge <a name="Challenge"></a>
@@ -144,7 +167,6 @@ keys. The player can place a bomb by pressing the space bar. The player can paus
    During the process, there were some bugs like: <br/>
 - The player can place a bomb on the wall. <br/>
 - Player and enemies can go through the walls. <br/>
-- Bomb explode through the walls. <br/>
 - Collision detection is not working properly. <br/>
    Fixing these bugs took us a lot of time, but it help us learn a lot of things about the game. <br/>
 </div>
