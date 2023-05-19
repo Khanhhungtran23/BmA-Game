@@ -14,7 +14,7 @@ public class Credit extends Scene {
         try {
             credit = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Menu/Credit.png")));
             exitButton = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Menu/ExitButton.png")));
-            exitButtonPressed = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Menu?ExitPressed.png")));
+            exitButtonPressed = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Menu/ExitPressed.png")));
             currentExitButton = exitButton;
         } catch (Exception e) {
             e.printStackTrace();
