@@ -20,7 +20,7 @@ public class BombExplodeMap extends Entity {
 
     public int downLength, upLength, rightLength, leftLength;
     public int explosionSoundQueue = 0;
-    SoundManager sound = new SoundManager("src/main/resources/Sound/bomb_explosion.wav");
+    SoundManager sound = new SoundManager("Bomberman-Adventure-master/Java/resources/Sound/bomb_explosion.wav");
     public BombExplodeMap() {
         map = TileManager.getInstance().mapTileNum; //get map from TileManager
         try {
@@ -57,7 +57,7 @@ public class BombExplodeMap extends Entity {
         int y = bomb.getY() / Constant.TILE_SIZE;
 
         if (explosionSoundQueue == 0) { //Sound Queue
-            sound.playSound("src/main/resources/Sound/bomb_explosion.wav");
+            sound.playSound("Bomberman-Adventure-master/Java/resources/Sound/bomb_explosion.wav");
             explosionSoundQueue++;
         }
 

@@ -15,7 +15,7 @@ import java.util.Objects;
 
 public class Player extends Entity {
     KeyHandler keyH = Window.getKeyH();
-    SoundManager sound = new SoundManager("src/main/resources/Sound/put_bombs.wav");
+    SoundManager sound = new SoundManager("Bomberman-Adventure-master/Java/resources/Sound/put_bombs.wav");
 
     int currentMap;
     int soundQueue;
@@ -134,7 +134,7 @@ public class Player extends Entity {
     public void pickUpObject(int i) { //Pick up items
         if (i != 999) {
             String objName = GameScene.getObject()[i].name;
-            sound.playSound("src/main/resources/Sound/put_bombs.wav");
+            sound.playSound("Bomberman-Adventure-master/Java/resources/Sound/put_bombs.wav");
             switch (objName) {
                 case "ExtraBomb" -> {
                     GameScene.setBombSize(GameScene.getBombSize() + 1); // Increase bomb size
@@ -165,9 +165,9 @@ public class Player extends Entity {
         if (state == 0) { //Player Die
             img = getBufferedImage(die[0], die[1], die[2], die[3], die[4], die[5]);
 
-            SoundManager sound = new SoundManager("src/main/resources/Sound/just_died.wav");
+            SoundManager sound = new SoundManager("Bomberman-Adventure-master/Java/resources/Sound/just_died.wav");
             if (soundQueue == 0) {
-                sound.playSound("src/main/resources/Sound/just_died.wav");
+                sound.playSound("Bomberman-Adventure-master/Java/resources/Sound/just_died.wav");
                 soundQueue++;
             }
 

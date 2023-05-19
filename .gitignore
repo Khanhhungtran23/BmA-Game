@@ -6,7 +6,7 @@
 
 # BlueJ files
 *.ctxt
-
+*.txt
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
@@ -45,8 +45,10 @@ replay_pid*
 /nbdist/
 /.nb-gradle/
 
+
 ### VS Code ###
 .vscode/
+
 
 ### Mac OS ###
 .DS_Store
