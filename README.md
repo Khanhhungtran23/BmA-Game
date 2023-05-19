@@ -127,9 +127,6 @@ keys. The player can place a bomb by pressing the space bar. The player can paus
 <div >
 <img src="Bomberman-Adventure-master/resources/Screenshots/Controls_UML.png" alt="">
 </div>
-<div >
-<img src="Bomberman-Adventure-master/resources/Screenshots/Menu.png" alt="">
-</div>
 ## Entity
 <div >
 <img src="Bomberman-Adventure-master/resources/Screenshots/Entity_UML.png" alt="">
