@@ -74,9 +74,9 @@ This is our Bomberman game project for the Object-Oriented Programming course at
 
 | Order |         Name          |                      Task                      | Contribution |
 |:-----:|:---------------------:|:----------------------------------------------:|:------------:|
-|   1   | Trần Vũ Khánh Hưng    |  Git , Entity                                  |      50      |
-|   2   | Ngô Í Khang           |  GUI , Controls ,                              |      50      |
-|   3   | Lữ Nguyên Vĩnh Phúc   |  GUI , Variables ,                             |      0       |
+|   1   | Trần Vũ Khánh Hưng    |  Git , Entity                                  |      33.3    |
+|   2   | Ngô Í Khang           |  GUI , Controls ,                              |      33.3    |
+|   3   | Lữ Nguyên Vĩnh Phúc   |  GUI , Variables ,                             |      33.3    |
 
 <!-- Game -->
 
