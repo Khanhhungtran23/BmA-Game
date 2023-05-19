@@ -18,9 +18,9 @@ public class MenuScene extends Scene {
 
     public MenuScene() {
         try{
-            Menu = ImageIO.read(new File("Bomberman-Adventure-master/Resources/Menu/Menu.png"));
-            MenuPlayPressed = ImageIO.read(new File("Bomberman-Adventure-master/Resources/Menu/MenuPlayPressed.png"));
-            MenuExitPressed = ImageIO.read(new File("Bomberman-Adventure-master/Resources/Menu/MenuExitPressed.png"));
+            Menu = ImageIO.read(new File("Bomberman-Adventure-master/resources/Menu/Menu.png"));
+            MenuPlayPressed = ImageIO.read(new File("Bomberman-Adventure-master/resources/Menu/MenuPlayPressed.png"));
+            MenuExitPressed = ImageIO.read(new File("Bomberman-Adventure-master/resources/Menu/MenuExitPressed.png"));
         } catch (Exception e) {
             e.printStackTrace();
         }
