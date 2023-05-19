@@ -19,7 +19,7 @@ public class Bomb extends Entity {
 
     private long timeStart = 0L;
     public int bombExplosionTimer = 2;
-    public int bombExplosionTimerMax = 4;
+    public int bombExplosionTimerMax = 2;
 
     private int x, y;
     private String key = "";
