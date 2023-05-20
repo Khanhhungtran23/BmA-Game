@@ -72,11 +72,11 @@ This is our Bomberman game project for the Object-Oriented Programming course at
 
 ### Task Allocation
 
-| Order |         Name          |                      Task                      | Contribution |
-|:-----:|:---------------------:|:----------------------------------------------:|:------------:|
-|   1   | Trần Vũ Khánh Hưng    |  Git , Entity                                  |      33.3    |
-|   2   | Ngô Í Khang           |  GUI , Controls ,                              |      33.3    |
-|   3   | Lữ Nguyên Vĩnh Phúc   |  GUI , Variables ,                             |      33.3    |
+| Order |         Name          |                                             Task                                                      | Contribution |
+|:-----:|:---------------------:|:-----------------------------------------------------------------------------------------------------:|:------------:|
+|   1   | Trần Vũ Khánh Hưng    |Git , Entity , Controls ( CollisionCheck ) , Objects ( SpeedIncrease , SuperObject )                   |      33.3    |
+|   2   | Ngô Í Khang           |GUI , Controls , Controls ( MouseHandler , SoundHandler ) , Objects ( BlastRadius , Door , ExtraBomb ) |      33.3    |
+|   3   | Lữ Nguyên Vĩnh Phúc   |GUI , Variables , Slides , Controls ( Keyhandler , CheckAvailable )                                    |      33.3    |
 
 <!-- Game -->
 
@@ -150,7 +150,6 @@ keys. The player can place a bomb by pressing the space bar. The player can paus
 - The player can move faster by picking up the Boots of Hermes item. <br/>
 - The player can place more bombs at the same time by picking up the Extra Bomb item. <br/>
 - The player can increase the range of bombs by picking up the Blast Radius item. <br/>
-- The player can pause the game by pressing the P key. <br/>
 - There 2 maps currently in the game, with different obstacles and enemies. <br/>
 - The boss will appear in end of map 2, with a lot of health and will track the player. To kill the boss, you have to be patient and wait for the right time to attack. <br/>
 - After defeating the boss at the level 2, you will win the game and become the "Hero of the BomberLand". <br/>
