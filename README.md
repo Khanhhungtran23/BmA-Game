@@ -91,7 +91,7 @@ As a fresher developer, we assume that the Bomberman game is one of the most sim
 ### About The Game
 
 <div align="center">
-<img src="src/main/resources/Screenshots/Map1.png" alt="">
+<img src="Bomberman-Adventure-master/resources/resources/Screenshots/Map1.png" alt="">
 </div>
 
 - Language: [Java](https://www.java.com/en/)
@@ -125,23 +125,26 @@ keys. The player can place a bomb by pressing the space bar. The player can paus
 ## UML-diagram <a name="UML-diagram"></a>
 ## Controls
 <div >
+<div >
 <img src="Bomberman-Adventure-master/resources/Screenshots/Controls_UML.png" alt="">
 </div>
-## Entity
-<div >
+    
+<h3> Entity </h3>
+<div>
 <img src="Bomberman-Adventure-master/resources/Screenshots/Entity_UML.png" alt="">
 </div>
-## GUI
-<div >
+<h3> GUI </h3>
+<div>
 <img src="Bomberman-Adventure-master/resources/Screenshots/GUI_UML.png" alt="">
 </div>
-## Objects
-<div >
+<h3> Objects </h3>
+<div>
 <img src="Bomberman-Adventure-master/resources/Screenshots/Objects_UML.png" alt="">
 </div>
-## Variables
-<div >
+<h3> Variables </h3>
+<div>
 <img src="Bomberman-Adventure-master/resources/Screenshots/Constant_UML.png" alt="">
+</div>
 </div>
 
 ## Features <a name="Features"></a>
@@ -159,16 +162,29 @@ keys. The player can place a bomb by pressing the space bar. The player can paus
 
 <div style = "text-align: justify">
    The most challenging part of this project is the collision detection. We had to make sure that the player can't go through the walls, the enemies can't go through the walls and the bombs can't go through the walls. We also had to make sure that the player can't place a bomb on the wall. <br/>
-   Another challenging part is the boss. We had to make sure that the boss can track the player and attack the player. We also had to make sure that the boss can't go through the walls. <br/>
    During the process, there were some bugs like: <br/>
 - The player can place a bomb on the wall. <br/>
-- Player and enemies can go through the walls. <br/>
 - Collision detection is not working properly. <br/>
    Fixing these bugs took us a lot of time, but it help us learn a lot of things about the game. <br/>
 </div>
 
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
+[contributors-shield]: https://img.shields.io/github/contributors/Khanhhungtran23/Bomberman.svg?style=for-the-badge
+
+[contributors-url]: https://github.com/Khanhhungtran23/Bomberman-Adventure/graphs/contributors
+
+[forks-shield]: https://img.shields.io/github/forks/Khanhhungtran23/Bomberman.svg?style=for-the-badge
+
+[forks-url]: https://github.com/Khanhhungtran23/Bomberman-Adventure/network/members
+
+[stars-shield]: https://img.shields.io/github/stars/Khanhhungtran23/Bomberman.svg?style=for-the-badge
+
+[stars-url]: https://github.com/Khanhhungtran23/Bomberman-Adventure/stargazers
+
+[issues-shield]: https://img.shields.io/github/issues/Khanhhungtran23/Bomberman.svg?style=for-the-badge
+
+[issues-url]: https://github.com/Khanhhungtran23/Bomberman-Adventure/issues
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
