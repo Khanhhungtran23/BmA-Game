@@ -1,7 +1,4 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+
 
 # Bomberman-Adventure
 <!--suppress ALL -->
@@ -170,21 +167,7 @@ keys. The player can place a bomb by pressing the space bar. The player can paus
 
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
-[contributors-shield]: https://img.shields.io/github/contributors/Khanhhungtran23/Bomberman.svg?style=for-the-badge
 
-[contributors-url]: https://github.com/Khanhhungtran23/Bomberman-Adventure/graphs/contributors
-
-[forks-shield]: https://img.shields.io/github/forks/Khanhhungtran23/Bomberman.svg?style=for-the-badge
-
-[forks-url]: https://github.com/Khanhhungtran23/Bomberman-Adventure/network/members
-
-[stars-shield]: https://img.shields.io/github/stars/Khanhhungtran23/Bomberman.svg?style=for-the-badge
-
-[stars-url]: https://github.com/Khanhhungtran23/Bomberman-Adventure/stargazers
-
-[issues-shield]: https://img.shields.io/github/issues/Khanhhungtran23/Bomberman.svg?style=for-the-badge
-
-[issues-url]: https://github.com/Khanhhungtran23/Bomberman-Adventure/issues
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
