@@ -71,8 +71,8 @@ This is our Bomberman game project for the Object-Oriented Programming course at
 
 | Order |         Name          |                                             Task                                                      | Contribution |
 |:-----:|:---------------------:|:-----------------------------------------------------------------------------------------------------:|:------------:|
-|   1   | Trần Vũ Khánh Hưng    |Entity , Controls ( CollisionCheck ) , Objects ( SpeedIncrease , SuperObject )                   |      33.3    |
-|   2   | Ngô Í Khang           |GUI , Controls , Controls ( MouseHandler , SoundHandler ) , Objects ( BlastRadius , Door , ExtraBomb ) |      33.3    |
+|   1   | Trần Vũ Khánh Hưng    |Entity , Controls ( CollisionCheck ) , Objects ( SpeedIncrease , SuperObject )                         |      33.3    |
+|   2   | Ngô Í Khang           |GUI, Controls ( MouseHandler , SoundHandler ) , Objects ( BlastRadius , Door , ExtraBomb )             |      33.3    |
 |   3   | Lữ Nguyên Vĩnh Phúc   |GUI , Variables , Slides , Controls ( Keyhandler , CheckAvailable )                                    |      33.3    |
 
 <!-- Game -->
