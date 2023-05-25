@@ -23,7 +23,7 @@ public class Window extends JFrame implements Runnable {
         //Window handler
         setSize(width, height);
         setTitle(TITLE);
-        setIconImage(new ImageIcon("src\\main\\resources\\Logo-1.png").getImage());
+        setIconImage(new ImageIcon("Bomberman-Adventure-master\\resources\\Logo-1.png").getImage());
 
         setResizable(false);
         setVisible(true);
