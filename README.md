@@ -88,7 +88,7 @@ As a fresher developer, we assume that the Bomberman game is one of the most sim
 ### About The Game
 
 <div align="center">
-<img src="Bomberman-Adventure-master/resources/resources/Screenshots/Map1.png" alt="">
+<img src="Bomberman-Adventure-master/resources/Screenshots/Map1.png" alt="">
 </div>
 
 - Language: [Java](https://www.java.com/en/)
