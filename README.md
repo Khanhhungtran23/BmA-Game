@@ -1,6 +1,4 @@
 
-
-# Bomberman-Adventure
 <!--suppress ALL -->
 <div align="center">
 <img alt="">
