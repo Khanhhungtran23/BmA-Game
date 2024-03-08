@@ -3,7 +3,7 @@
 # Bomberman-Adventure
 <!--suppress ALL -->
 <div align="center">
-<img src="Bomberman-Adventure-master/resources/Screenshots/Menu.png" alt="">
+<img alt="">
 </div>
 
 # Table of contents
